@@ -13,12 +13,12 @@
   inputs.src-keyring-v0_3_0.repo  = "nim-keyring";
   inputs.src-keyring-v0_3_0.type  = "github";
   
-  #inputs."dbus".owner = "nim-nix-pkgs";
-  #inputs."dbus".ref   = "master";
-  #inputs."dbus".repo  = "dbus";
-  #inputs."dbus".type  = "github";
-  #inputs."dbus".inputs.nixpkgs.follows = "nixpkgs";
-  #inputs."dbus".inputs.flakeNimbleLib.follows = "flakeNimbleLib";
+  inputs."dbus".owner = "nim-nix-pkgs";
+  inputs."dbus".ref   = "master";
+  inputs."dbus".repo  = "dbus";
+  inputs."dbus".type  = "github";
+  inputs."dbus".inputs.nixpkgs.follows = "nixpkgs";
+  inputs."dbus".inputs.flakeNimbleLib.follows = "flakeNimbleLib";
   
   outputs = { self, nixpkgs, flakeNimbleLib, ...}@deps:
   let 
