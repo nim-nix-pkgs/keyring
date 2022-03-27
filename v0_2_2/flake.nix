@@ -11,6 +11,7 @@
   inputs.src-keyring-v0_2_2.ref   = "refs/tags/v0.2.2";
   inputs.src-keyring-v0_2_2.owner = "iffy";
   inputs.src-keyring-v0_2_2.repo  = "nim-keyring";
+  inputs.src-keyring-v0_2_2.dir   = "";
   inputs.src-keyring-v0_2_2.type  = "github";
   
   inputs."dbus".owner = "nim-nix-pkgs";
