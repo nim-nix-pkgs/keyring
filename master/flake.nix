@@ -11,7 +11,6 @@
   inputs.src-keyring-master.ref   = "refs/heads/master";
   inputs.src-keyring-master.owner = "iffy";
   inputs.src-keyring-master.repo  = "nim-keyring";
-  inputs.src-keyring-master.dir   = "";
   inputs.src-keyring-master.type  = "github";
   
   inputs."dbus".owner = "nim-nix-pkgs";

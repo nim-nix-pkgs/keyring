@@ -11,8 +11,15 @@
   inputs.src-keyring-v0_1_0.ref   = "refs/tags/v0.1.0";
   inputs.src-keyring-v0_1_0.owner = "iffy";
   inputs.src-keyring-v0_1_0.repo  = "nim-keyring";
-  inputs.src-keyring-v0_1_0.dir   = "";
   inputs.src-keyring-v0_1_0.type  = "github";
+  
+  inputs."github.com/iffy/nim-dbus".owner = "nim-nix-pkgs";
+  inputs."github.com/iffy/nim-dbus".ref   = "master";
+  inputs."github.com/iffy/nim-dbus".repo  = "github.com/iffy/nim-dbus";
+  inputs."github.com/iffy/nim-dbus".dir   = "";
+  inputs."github.com/iffy/nim-dbus".type  = "github";
+  inputs."github.com/iffy/nim-dbus".inputs.nixpkgs.follows = "nixpkgs";
+  inputs."github.com/iffy/nim-dbus".inputs.flakeNimbleLib.follows = "flakeNimbleLib";
   
   outputs = { self, nixpkgs, flakeNimbleLib, ...}@deps:
   let 
