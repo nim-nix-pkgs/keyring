@@ -65,7 +65,7 @@
         "dbus": "dbus",
         "flakeNimbleLib": "flakeNimbleLib",
         "nixpkgs": "nixpkgs",
-        "src-keyring-master": "src-keyring-master"
+        "src-keyring-v0_3_1": "src-keyring-v0_3_1"
       }
     },
     "src-dbus-master": {
@@ -85,7 +85,7 @@
         "type": "github"
       }
     },
-    "src-keyring-master": {
+    "src-keyring-v0_3_1": {
       "flake": false,
       "locked": {
         "lastModified": 1657938861,
@@ -97,7 +97,7 @@
       },
       "original": {
         "owner": "iffy",
-        "ref": "refs/heads/master",
+        "ref": "refs/tags/v0.3.1",
         "repo": "nim-keyring",
         "type": "github"
       }
